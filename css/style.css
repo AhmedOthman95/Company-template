@@ -33,6 +33,7 @@ h1{
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
+    text-align: center;
 }
 .navbar li a, .navbar, .navbar-brand{
     color: rgb(23, 162, 184) !important;
@@ -41,6 +42,11 @@ h1{
     color: #fff !important;
     background-color: rgb(23, 162, 184) !important;
 }
+.navbar-dark  button.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
 .bg-gray{
     background-color: #f6f6f6;
 }
@@ -49,9 +55,13 @@ h1{
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
+    border-radius: 0
 }
 .jumbotron h1{
     font-size: 100px;
+}
+.touch {
+    background-color: #F4F4F4;
 }
 .container-fluid{
     padding: 60px 50px;
@@ -105,6 +115,7 @@ filter: invert(100%)
     border: 1px solid rgb(23, 162, 184);
     border-radius: 0 !importatnt;
     transition: box-shadow 0.5s;
+    white-space: nowrap;
 }
 .card:hover{
     box-shadow: 5px 0px 40px rgb(0,0,0, .2)
@@ -182,6 +193,17 @@ footer .glyphicon{
       width: 100%;
       margin-bottom: 35px;
     }
+     h2{
+         text-align: center;
+     }
+     input {
+         
+         margin-top: 20px;
+     }
+     .btn-info {
+         height: 35px;
+         margin-top: 20px;
+     }
   }
 
   @media screen and (max-width: 480px) {
